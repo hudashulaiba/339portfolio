@@ -1,0 +1,59 @@
+- fix footer (ON EACH PAGE)
+
+- make sure all skip to content links work
+
+- flesh out content (focus on essays, planning, and main page)
+ At least four pages must have a minimum of three paragraphs of text 
+ or five images or a combination of images and text.  This is a minimum
+
+- One page should have at least nine distinct images contained in a SINGLE CONTAINER
+ These images should use filters and pseudo-classes to animate/augment them. 
+ (So change opacity, border, etc.)
+
+- Your site must have a component that uses grid
+ (copying code from previous assignment will only be partial credit)
+ The grid layout must change in each of your three screen sizes
+ You must include in your submission documentation on where to find the grid being used effectively.
+ Changing from one to two to three columns will earn some but not all credit.
+
+- Your site must have a component that uses flexbox
+ (copying code from previous assignment will only be partial credit)
+ The flex layout must change in each of your three screen sizes
+ You must include in your submission documentation on where to find flex being used effectively.
+ You will need to be creative to get full credit for the flex
+ do something that demonstrates advanced understanding.
+
+- At least one CSS generated animation (GRAD CAP ZOOMS IN)
+ Make it obvious and easy for us to see
+ Make sure to write a media query to turn it off as well.
+
+- A working contact form.  The form should store the info in a 3rd party site.
+
+- A parallax image.  Make sure to write a media query to turn it off as well.
+
+- A keyboard-accessible flip card using just CSS
+ Make sure to write a media query to turn it off as well.
+
+-  Google Analytics on all four pages
+ Take a screenshot of each page with multiple people (viewing/having viewed) 
+ and include in your documentation.**It can take up to 48 hours for account to activate.
+
+- Media queries for two additional layouts - tablet, and larger screen.
+    - The navigation must differ on all three views in a way that makes the site easier to use.
+    - The media queries should also trigger structural changes to at least two of the pages
+        the flow of elements must change, elements must hide, or grid/flex properties should be altered.  
+    - Using flex does not count toward the responsive design objective 
+        unless some of the flex properties are significantly updated using media queries.
+
+- You must include a media-query that turns off any animation you created in your site.
+
+- Your submission must include documentation of your responsive design choices and how you trigger them
+    You must explain how your code improves the page, not just changes it.  
+
+- Your documentation must include a demonstration of each page validating on Wave and aXe.
+
+- A summary of the steps you took to ensure that your site addresses accessibility, diversity and inclusion.
+
+
+
+
