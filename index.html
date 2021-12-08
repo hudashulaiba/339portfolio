@@ -61,26 +61,31 @@
 		</br></br></br>
 		<img src="imgs/gradcap.png" id = 'gradcap' alt = "graduation cap">
 
-		<form action="" method="get" class="contact" id="contact">
+		<div class="formbody">
 			<h2>Contact</h2>
-			<div class='formbody'>
-				<div class="subject">
-				<label for="name">Subject: </label>
-				<input type="text" name="name" id="name" required>
-				</div>
-				<div class="email">
-				<label for="email">Email: </label>
-				<input type="email" name="email" id="email" required>
-				</div>
-				<div class="body">
-					<label for="body">Message: </label>
-					<input type="text" name="body" id="body" required>
-				</div>
-				<div class="submit">
-				<input type="submit" value="Send">
-				</div>
+			<form action="https://formspree.io/f/mnqwqnpp" class="contact" method="POST">
+
+			<div class="subject">
+				<label for="subject">Subject: </label>
+				<input type="text" name="name" id="name" required placeholder="Message subject">
 			</div>
-		  </form>
+
+			<div class="email">
+				<label for="email">Email: </label>
+				<input type="email" name="email" id="email" required placeholder="youremail@example.com">
+			</div>
+
+			<div class="body">
+				<label for="body">Message: </label>
+				<input type="text" name="body" id="body" required placeholder="Your message">
+			</div>
+
+			<div class="submit">
+				<input type="submit" value="Submit">
+			</div>
+			
+			</form>
+		  </div>
 
 	</main>
 
