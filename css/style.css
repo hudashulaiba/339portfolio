@@ -105,7 +105,7 @@ li{
     width: 100%;
     height: 100%;
     
-    display:grid;
+    display: grid;
     grid-column: 1 / -1;
     grid-row: 10;
 
@@ -474,7 +474,7 @@ footer{
     }
 
     #contactgroup{
-        display:grid;
+        display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
