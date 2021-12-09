@@ -38,7 +38,7 @@ h1,h2,h3{
     font-weight: bolder;
 }
 
-h3{
+h2#essaytips{
     font-size: 2em;
     text-decoration: underline overline;
     text-align: center;
@@ -58,11 +58,12 @@ h3{
     border-bottom: 1px solid #000;
     border-top: 1px solid #000;
     background-color: #d4d1d1;
+    padding:20px;
 }
 
 .centered{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .plan, .centered{
@@ -111,7 +112,6 @@ li{
     background-attachment: fixed;
     background-position: center;
     background-size: cover; 
-    height: 300px;
 }
 
 /**************************** link styling ****************************/
@@ -292,7 +292,7 @@ div.essaygrid{
   
 .flip-card-back {
     transform: rotateY(180deg);
-    background-color: #bbb;
+    background-color: rgb(226, 223, 223);
     color:black;
     display:flex;
     justify-content: center;
@@ -387,6 +387,10 @@ footer{
     #contact {
         margin-right: 20%;
         margin-left: 20%;
+    }
+
+    #headerpic{
+        height: 300px;
     }
 
     /************ESSAY PAGE****************/
